@@ -19,5 +19,5 @@ app.use('/', dashboard);
 // node app.js
 
 app.listen(1338, () => {
-    console.log('Dashboard está rodando em http://localhost:1338');
+    console.log('Dashboard is running on http://localhost:1338');
 });
