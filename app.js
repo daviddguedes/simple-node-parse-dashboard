@@ -4,11 +4,19 @@ const ParseDashboard = require('parse-dashboard');
 const app = express();
 
 const dashboard = new ParseDashboard({
+    // "apps": [
+    //     {
+    //         "serverURL": "http://localhost:1337/blog",
+    //         "appId": "myAppId",
+    //         "masterKey": "pppppp",
+    //         "appName": "Blog"
+    //     }
+    // ]
     "apps": [
         {
-            "serverURL": "http://localhost:1337/blog",
+            "serverURL": "http://localhost:1337/api/v1",
             "appId": "myAppId",
-            "masterKey": "pppppp",
+            "masterKey": "myMasterKey",
             "appName": "Blog"
         }
     ]
